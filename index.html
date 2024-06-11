@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>TASK ON 11-6-24</h1></center><hr>
+    <pre style="font-size: larger;">
+
+
+        
+        1)PRINT THE GIVEN ARRAY IS IT IS IN ASCENDING ORDER OR NOT
+
+        -------code------
+
+        var len=+prompt("Enter length of an array: ")
+        a=[]
+        for(j=0;j< len;j++){
+        var aa=+prompt("Enter numbers ")
+        a.push(aa)
+        }
+        console.log(a)
+        b=a[0]
+        c=a.length-1
+        count=0
+        for(i=1;i< a.length;i++){
+        if(a[i]>b){
+        b=a[i]
+        count++
+        }   
+        }
+            if(count==c){
+            console.log("GIVEN  "+a+"  ARRAY  IS IN ASCENDING ORDER")
+            }
+         else{
+         console.log("GIVEN  "+a+"  ARRAY  IS NOT IN ORDER")
+         }
+
+            ------output--------
+            GIVEN 22,33,44,51,77,89,93 ARRAY IS IN ASCENDING ORDER
+
+
+
+        2)PRINT THE GIVEN ARRAY IS IT IS IN DESCENDING ORDER OR NOT
+            -------code------
+
+            var len=+prompt("Enter length of an array: ")
+            a=[]
+            for(j=0;j< len;j++){
+            var aa=+prompt("Enter numbers ")
+            a.push(aa)
+            }
+            console.log(a)
+            b=a[0]
+            c=a.length-1
+            count=0
+            for(i=1;i< a.length;i++){
+            if(a[i]>b){
+             b=a[i]
+            count++
+             }}
+            if(count==c){
+             console.log("GIVEN  "+a+"  ARRAY  IS IN DESCENDING ORDER")
+                }
+             else{
+             console.log("GIVEN  "+a+"  ARRAY  IS NOT IN ORDER")
+             }
+
+             ------output--------
+             GIVEN ARRAY IS IN DESCENDING ORDER
+
+    </pre>
+    <script>
+// var len=+prompt("Enter length of an array: ")
+// a=[]
+// for(j=0;j<len;j++){
+//     var aa=+prompt("Enter numbers ")
+//     a.push(aa)
+// }
+// console.log(a)
+// b=a[0]
+// c=a.length-1
+// count=0
+// for(i=1;i<a.length;i++){
+//     if(a[i]>b){
+//         b=a[i]
+//         count++
+//     }}
+//      if(count==c){
+//         console.log(a+" -IS IN ASCENDING ORDER")
+//     }
+//     else{
+//         console.log(a+"  -IS NOT IN ORDER")
+        
+//     }
+
+
+// var a=[11,22,44,91,33,12,44]
+// b=a[0]
+// c=a.length-1
+// count=0
+// for(i=1;i<a.length;i++){
+//     if(a[i]>b){
+//         b=a[i]
+//         count++
+//     }}
+//      if(count==c){
+//         console.log("GIVEN  "+a+"  ARRAY  IS IN ASCENDING ORDER")
+//     }
+//     else{
+//         console.log("GIVEN  "+a+"  ARRAY  IS NOT IN ORDER")
+        
+//     }
+
+
+// var a=[9,8,7,6,5,4,3]
+// b=a[0]
+// c=a.length-1
+// count=0
+// for(i=1;i<a.length;i++){
+//     if(a[i]<b){
+//         b=a[i]
+//         count++
+//     }}
+//      if(count==c){
+//         console.log("GIVEN  "+a+"  ARRAY  IS IN DESCENDING ORDER")
+//     }
+//     else{
+//         console.log("GIVEN  "+a+"  ARRAY  IS IN ORDER")
+        
+//     }
+
+    </script>
+</body>
+</html>
